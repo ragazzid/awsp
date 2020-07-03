@@ -12,7 +12,7 @@ export AWS_SESSION_TOKEN="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 Or, directly to your env variables
 
 ```
-eval $(aws sts assume-role --role-arn arn:aws:iam::XXXXXXXXXXXXXXXXXX:role/tmp --role-session-name xtpo | awsp)
+eval $(aws sts assume-role --role-arn arn:aws:iam::XXXXXXXXXXXXXXXXXX:role/tmp -role-session-name xtpo | awsp)
 ```
 
 Then

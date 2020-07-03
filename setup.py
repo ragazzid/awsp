@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="awsp-ragazzid",
-    version="0.0.4",
+    version="0.0.5",
     author="Diego Ragazzi Rondon",
     author_email="d@ragazzid.com.br",
     description="A small example package",
